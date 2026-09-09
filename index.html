@@ -1,93 +1,152 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
-</head>
-<body>
-<main section class="cancha">
-<section class="zona">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    </head>
+    <body>
+    <main section class="cancha">
+    <section class="zona">
+    <article class="cajaarri">
+                    <article class="cajitita">
+    </article>
 
-</section>
-<section class="zona">
-                <article class="cajaizq">
 
-</article>
-</section>
-<section class="zona">
-                <article class="caja">
+    <article class="cajita">
 
-</section>
-</section>
-<style>
-    *{
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-    body {
-        background-color: rgb(255, 255, 255);
-        height: 105vh;
-        overflow: hidden;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .cancha{
-        height: 100%;
-        width:100%;
-        border: .2rem solid white;
-        border-radius: 1rem;
-        aspect-ratio: 1/1;
-        padding: 0.1rem;
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-    }
-    .zona{
+    </section>
+    <section class="zonamid">
+        <article class="cajaizq">
+    </article>
+    </section>
+    <section class="zonabaj">
+        <article class="caja"></article>
+        <article class="cajamedio"></article>
+            <article class="cajader"></article>
+
+    </section>
+    </section>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: rgb(255, 255, 255);
+            height: 105vh;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .cancha{
+            height: 100%;
+            width:100%;
+            border: .2rem solid rgb(255, 255, 255);
+            border-radius: 1rem;
+            aspect-ratio: 1/1;
+            padding: 0.1rem;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        .zona{
         width: 100%;
-        height: 33%;
-        border: 3px dashed rgb(0, 0, 0);
-        color:  white;
+        height: 26%;
+        background-color: rgba(233, 240, 240, 0.356);
         text-align: center;
-        border-radius: 4%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+            .zonamid{
+        width: 100%;
+        height: 26%;
+        background-color:  rgba(14, 187, 187, 0.356);
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
+            .zonabaj{
+        width: 100%;
+        height: 46%;
+        background-color: rgba(233, 240, 240, 0.356);
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        }
 
-
+    .caja{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgba(224, 12, 12, 0.671);
+    padding: .5rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        }
+        .cajamedio{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(60, 190, 212);
+    padding: .5rem;
+    flex-direction: column;
     display: flex;
     justify-content: space-around;
     align-items: center;
     }
-
-.caja{
-height: 20vh;
-width: 20vh;
-background-color: black;
-color:rgb(0, 0, 0);
-padding: .5rem;
-flex-direction: column;
-display: flex;
-justify-content: space-around;
-align-items: center;
-border: 3px solid rgb(0, 0, 0);
-    }
-    
-.cajaizq{
-height: 20vh;
-width: 20vh;
-background-color: black;
-color:rgb(0, 0, 0);
-padding: .5rem;
-flex-direction: column;
-display: flex;
-justify-content: space-around;
-align-items: center;
-border: 3px solid rgb(0, 0, 0);
+        .cajader{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgba(243, 227, 9, 0.808);
+    padding: .5rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+        }
+        
+    .cajaizq{
+    height: 20vh;
+    width: 20vh;
+    background-color: rgb(60, 190, 212);
+    padding: .5rem;
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     margin-right: auto;
-        margin-left: 100px;
-
-
+    margin-left: 50px;
     }
-   </style>
-</body>
-</html>
+   .cajaarri {
+    height: 7vh;
+    width: 50vh;
+    background-color: rgba(224, 12, 12, 0.671);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cajita {
+    height: 100%;
+    width: 7vh;
+    background-color: black;
+}
+
+.cajitita {
+    height: 12px;
+    width: 250px;
+    background-color: rgb(231, 238, 231);
+
+    margin-left: auto;
+    margin-right: auto;
+}
+    </style>
+    </body>
+    </html>
